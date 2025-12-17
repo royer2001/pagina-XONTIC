@@ -11,8 +11,14 @@ Página web corporativa de Xontic, una empresa de desarrollo de software a medid
 ## Estructura
 
 - `index.html`: Página principal.
-- `style.css`: Estilos y diseño responsivo.
-- `men.js`: Funcionalidad del formulario de contacto.
+- `style.css`: Estilos, diseño responsivo y modo oscuro.
+- `men.js`: Funcionalidad del formulario y cambio de tema.
+
+## Características
+
+- Diseño responsivo.
+- Modo oscuro (Dark Mode).
+- Formulario de contacto funcional (simulado).
 
 ## Instalación
 
