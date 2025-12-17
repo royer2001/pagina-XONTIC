@@ -1,18 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <title>Repositorio</title>
+    <title>Xontic - Desarrollo de Software a Medida</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Titulo del proyecto 1</h1>
-    <h2>subtítulo:</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis dolorem distinctio eligendi commodi iure laborum molestias
-        vitae nam temporibus ratione. Laboriosam ipsam maxime reiciendis eligendi, nesciunt delectus minus rerum quaerat.</p>
+    <header>
+        <div class="container">
+            <div class="logo">Xontic</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Transformamos tus ideas en software</h1>
+            <p>Expertos en desarrollo de software a medida para potenciar tu negocio.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Desarrollo Web</h3>
+                    <p>Creación de sitios y aplicaciones web modernas, rápidas y escalables.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Aplicaciones Móviles</h3>
+                    <p>Desarrollo de apps nativas e híbridas para iOS y Android.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Consultoría Tecnológica</h3>
+                    <p>Asesoramiento experto para la transformación digital de tu empresa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section bg-light">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En Xontic, nos dedicamos a ofrecer soluciones tecnológicas de alta calidad. Nuestro equipo de desarrolladores apasionados trabaja estrechamente con cada cliente para entender sus necesidades y entregar productos que superen sus expectativas.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Xontic. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="men.js"></script>
 </body>
 
 </html>
